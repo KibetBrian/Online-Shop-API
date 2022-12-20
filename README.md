@@ -1,2 +1,2 @@
 # E-commerce-REST-API
-A backend application for ecommerce websites. In intergrates with paypal for making payments
+A backend application for an ecommerce webstite. It supports functionalities such as creating products, ordering products and making payment using paypal. 
