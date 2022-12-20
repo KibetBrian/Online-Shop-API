@@ -7,10 +7,10 @@ const cartRoute = require('./routes/cart');
 const orderRoute = require('./routes/order');
 const paypalRoute = require('./routes/paypal');
 require('dotenv').config()
-app.use(express.json());
 
 const app = express();
 const PORT = process.env.PORT || 8080;
+app.use(express.json());
 
 //Mongo DB Connection
 mongoose.connect(process.env.MONGODB_URI).then(() => console.log("Database connected")).catch((err) => console.log(err));

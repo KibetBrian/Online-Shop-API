@@ -44,6 +44,7 @@ router.put ('/update/:id', verifyTokenAndAdmin, async(req, res)=>
         res.status(500).json(err)
     }
 });
+
 //Delete Order
 router.delete('/delete/:id', verifyTokenAndAdmin, async (req, res)=>{
     try
